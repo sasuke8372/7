@@ -90,3 +90,55 @@ h1{
     font-size: 30px;
     margin-top: 425px;
 }
+#wf{
+    margin-top: 5px;
+}
+.q{
+    margin-right:33px;
+    font-size: 15px;
+    color: white;
+}
+.c2, .c3{
+    margin-right: 15px; 
+}
+
+
+.c4{
+    margin-right: 15px; 
+ }
+
+ .c5{
+    margin-right: 15px; 
+ }
+
+ .c6{
+    margin-right: 15px; 
+ }
+
+ .c1, .c2, .c3{
+     display: inline;
+ }
+
+ .c4, .c5, .c6{
+    display: inline;
+}
+.c1, .c2, .c3, .c4, .c5, .c6{
+    animation-name: e;
+animation-duration: 2s;
+position:relative;
+}
+
+h5 {
+    animation-name: v;
+    animation-duration: 2.5s;
+    position:relative;
+}
+
+@keyframes v{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
